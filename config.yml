@@ -1,0 +1,33 @@
+baseURL: ldbenitez.github.io
+title: Leonardo Benítez
+theme: PaperMod
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  author: Leonardo Benítez
+  DateFormat: Monday, January 2, 2006
+  ShowReadingTime: true
+  profileMode:
+    enabled: true
+    title: "Hey there!" # optional default will be site title
+    subtitle: "\"The snake which cannot cast its skin has to die. As well the minds which are prevented from changing their opinions; they cease to be mind\" Friedrich Nietzsche"
+    imageUrl: "/blackhole.jpg" # optional
+    imageTitle: "black hole" # optional
+    imageWidth: 180 # custom size
+    imageHeight: 180 # custom size
+
+  socialIcons:
+    - name: email
+      url: "mailto:ldbenitez@protonmail.com"
+    - name: github
+      url: "https://github.com/ldbenitez"
+    - name: instagram
+      url: "https://instagram.com/ldbenitezpy"
+    - name: twitter
+      url: "https://twitter.com/ldbenitezpy"
+    - name: telegram
+      url: "https://t.me/lbenitez"
