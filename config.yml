@@ -1,23 +1,76 @@
 title: Leonardo Benítez
+paginate: 5
 theme: PaperMod
 
 minify:
   disableXML: true
   minifyOutput: true
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+
+languages:
+  en:
+    languageName: ":en:"
+    languageAltTitle: "English"
+    weight: 1
+    profileMode:
+      enabled: true
+      title: "Hey there!"
+      subtitle: "\"The snake which cannot cast its skin has to die. As well the minds which are prevented from changing their opinions; they cease to be mind\" Friedrich Nietzsche"
+      imageUrl: "/blackhole.jpg"
+      imageTitle: "black hole"
+      imageWidth: 180
+      imageHeight: 180
+    menu:
+      main:
+        - name: Blog
+          url: archives
+          weight: 10
+        - name: Tags
+          url: tags
+          weight: 20
+        - name: Search
+          url: search/
+
+  es:
+    languageName: ":es:"
+    languageAltTitle: "Español"
+    weight: 2
+    profileMode:
+      enabled: true
+      title: "Hola!"
+      subtitle: "\"Esta página es un poco trambólica, hay que saber subir y bajar\""
+      imageUrl: "/blackhole.jpg"
+      imageTitle: "black hole"
+      imageWidth: 180
+      imageHeight: 180
+    menu:
+      main:
+        - name: Blog
+          url: archives
+          weight: 10
+        - name: Etiquetas
+          url: tags
+          weight: 20
+        - name: Buscar
+          url: search/
+      
+taxonomies:
+  tag: tags
+
 params:
-  env: production
+  defaultTheme: dark
   author: Leonardo Benítez
-  DateFormat: Monday, January 2, 2006
   ShowReadingTime: true
-  profileMode:
-    enabled: true
-    title: "Hey there!" # optional default will be site title
-    subtitle: "\"The snake which cannot cast its skin has to die. As well the minds which are prevented from changing their opinions; they cease to be mind\" Friedrich Nietzsche"
-    imageUrl: "/blackhole.jpg" # optional
-    imageTitle: "black hole" # optional
-    imageWidth: 180 # custom size
-    imageHeight: 180 # custom size
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
 
   socialIcons:
     - name: email
@@ -30,3 +83,12 @@ params:
       url: "https://twitter.com/ldbenitezpy"
     - name: telegram
       url: "https://t.me/lbenitez"
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 2
+
+    keys: ["title", "content"]
