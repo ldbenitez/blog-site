@@ -1,4 +1,21 @@
 ---
 label: Blog post
 hide_body: true
-fields: []
+fields:
+- name: date
+  type: datetime
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  label: date
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: ShowToc
+  type: boolean
+  label: ShowToc
