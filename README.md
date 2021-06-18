@@ -1,6 +1,6 @@
 ## Personal Website Src - lbenitez.dev
 
-This repo contains code and configs to generate the static site present in the repo [ldbenitez.github.io](https://github.com/ldbenitez/ldbenitez.github.io)
+This repo contains code and configs to generate the static site present in [ldbenitez.github.io](https://github.com/ldbenitez/ldbenitez.github.io)
 
 
 The project makes use of:
