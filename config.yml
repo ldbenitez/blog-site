@@ -13,6 +13,10 @@ outputs:
     - RSS
     - JSON
 
+caches: 
+  getjson:
+    dir: /tmp/hugo_cache/blog-site
+    maxAge: 10s 
 
 languages:
   en:
@@ -22,7 +26,9 @@ languages:
     profileMode:
       enabled: true
       title: "Hey there!"
-      subtitle: "\"The snake which cannot cast its skin has to die. As well the minds which are prevented from changing their opinions; they cease to be mind\" Friedrich Nietzsche"
+      subtitle: "It works on my machine"
+      quoteTitle: "Today's Quote"
+      quoteUrl: "https://quotes-worker.lbenitez.workers.dev/"
       imageUrl: "/blackhole.jpg"
       imageTitle: "black hole"
       imageWidth: 180
@@ -45,7 +51,9 @@ languages:
     profileMode:
       enabled: true
       title: "Hola!"
-      subtitle: "\"Esta página es un poco trambólica, hay que saber subir y bajar\""
+      subtitle: "Próximamente..."
+      quoteTitle: "Frase del Día"
+      quoteUrl: "https://quotes-worker.lbenitez.workers.dev/"
       imageUrl: "/blackhole.jpg"
       imageTitle: "black hole"
       imageWidth: 180
@@ -78,8 +86,6 @@ params:
       url: "mailto:ldbenitez@protonmail.com"
     - name: github
       url: "https://github.com/ldbenitez"
-    - name: instagram
-      url: "https://instagram.com/ldbenitezpy"
     - name: twitter
       url: "https://twitter.com/ldbenitezpy"
     - name: telegram
