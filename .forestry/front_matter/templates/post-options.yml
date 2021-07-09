@@ -1,0 +1,41 @@
+---
+label: Post Options
+hide_body: false
+fields:
+- name: author
+  type: text
+  config:
+    required: false
+  label: Author
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+- name: ShowToc
+  type: boolean
+  label: Show TOC
+- name: ShowBreadCrumbs
+  type: boolean
+  label: Show BreadCrumbs
+- name: TocOpen
+  type: boolean
+  label: TOC Open
