@@ -22,13 +22,13 @@
         {{$quoteJson := getJSON "https://quotes-worker.lbenitez.workers.dev/"}}
         {{$quote := $quoteJson.quote}}
         {{$author := $quoteJson.author}}
-        
+
         {{if $quote}}
             <br>
             <h3>{{ .quoteTitle | markdownify }}</h3>
             <br>
             <div class="quote" style="font-style:italic">
-                <p>" {{ $quote | markdownify }} "</p>
+                <p>"{{ $quote | markdownify }}"</p>
                 <p>{{ $author }}</p>
             </div>
         {{end}}
