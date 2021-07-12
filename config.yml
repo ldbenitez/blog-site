@@ -28,7 +28,7 @@ languages:
       title: "Hey there!"
       subtitle: "It works on my machine"
       quoteTitle: "Today's Quote"
-      quoteUrl: "https://quotes-worker.lbenitez.workers.dev/"
+      quoteUrl: "https://quotes-worker.lbenitez.workers.dev/en"
       imageUrl: "/blackhole.jpg"
       imageTitle: "black hole"
       imageWidth: 180
@@ -53,7 +53,7 @@ languages:
       title: "Hola!"
       subtitle: "Próximamente..."
       quoteTitle: "Frase del Día"
-      quoteUrl: "https://quotes-worker.lbenitez.workers.dev/"
+      quoteUrl: "https://quotes-worker.lbenitez.workers.dev/es"
       imageUrl: "/blackhole.jpg"
       imageTitle: "black hole"
       imageWidth: 180

@@ -19,7 +19,7 @@
         </div>
         {{- end }}
 
-        {{$quoteJson := getJSON "https://quotes-worker.lbenitez.workers.dev/"}}
+        {{$quoteJson := getJSON .quoteUrl}}
         {{$quote := $quoteJson.quote}}
         {{$author := $quoteJson.author}}
 
