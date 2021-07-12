@@ -82,6 +82,7 @@ params:
   ShowCodeCopyButtons: true
   ShowToc: true
   displayFullLangName: true
+  description: Leonardo Benítez's personal blog site. 
 
   socialIcons:
     - name: email
