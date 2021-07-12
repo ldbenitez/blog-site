@@ -7,31 +7,20 @@
         {{- end }}
         <h1>{{ .title | default $.Site.Title | markdownify }}</h1>
         <span>{{ .subtitle | markdownify }}</span>
-        {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
-
-        {{- with .buttons }}
-        <div class="buttons">
-            {{- range . }}
-            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name | title }}">
-                <span class="button-inner">{{ .name | title }}</span>
-            </a>
-            {{- end }}
-        </div>
-        {{- end }}
 
         {{$quoteJson := getJSON .quoteUrl}}
         {{$quote := $quoteJson.quote}}
         {{$author := $quoteJson.author}}
 
         {{if $quote}}
-            <br>
-            <h3>{{ .quoteTitle | markdownify }}</h3>
-            <br>
-            <div class="quote" style="font-style:italic">
-                <p>"{{ $quote | markdownify }}"</p>
-                <p>{{ $author }}</p>
+            <div class="quote-container">
+                <h3>{{ .quoteTitle | markdownify }}</h3>
+                <p class="quote">"{{ $quote | markdownify }}"</p>
+                <p class="author">{{ $author }}</p>
             </div>
         {{end}}
+
+        {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
     </div>
     {{- end}}
 </div>

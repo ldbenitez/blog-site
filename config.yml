@@ -1,7 +1,8 @@
 baseURL: "https://ldbenitez.github.io"
-title: Leonardo Benítez
+title: 👨‍💻 Leonardo Benítez
 paginate: 5
 theme: PaperMod
+enableEmoji: true
 
 minify:
   disableXML: true
@@ -20,7 +21,7 @@ caches:
 
 languages:
   en:
-    languageName: ":en:"
+    languageName: "🇬🇧 EN"
     languageAltTitle: "English"
     weight: 1
     profileMode:
@@ -45,7 +46,7 @@ languages:
           url: search/
 
   es:
-    languageName: ":es:"
+    languageName: "🇵🇾 ES"
     languageAltTitle: "Español"
     weight: 2
     profileMode:
@@ -80,6 +81,7 @@ params:
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
   ShowToc: true
+  displayFullLangName: true
 
   socialIcons:
     - name: email
