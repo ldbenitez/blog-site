@@ -8,7 +8,8 @@
         <h1>{{ .title | default $.Site.Title | markdownify }}</h1>
         <span>{{ .subtitle | markdownify }}</span>
 
-        {{$quoteJson := getJSON .quoteUrl}}
+        {{$authHeader := getenv "BASIC_AUTH_HEADER"}}
+        {{$quoteJson := getJSON .quoteUrl (dict "Authorization" $authHeader) }}
         {{$quote := $quoteJson.quote}}
         {{$author := $quoteJson.author}}
 

@@ -28,6 +28,8 @@ jobs:
 
       - name: Build
         run: hugo --minify
+        env:
+          BASIC_AUTH_HEADER: ${{ secrets.HUGO_BASIC_AUTH_INFO }}
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

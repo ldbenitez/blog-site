@@ -74,6 +74,7 @@ taxonomies:
   tag: tags
 
 params:
+  env: "production"
   defaultTheme: dark
   author: Leonardo Benítez
   ShowReadingTime: true
