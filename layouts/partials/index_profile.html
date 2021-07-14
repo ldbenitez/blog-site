@@ -15,8 +15,8 @@
 
         {{if $quote}}
             <div class="quote-container">
-                <h3>{{ .quoteTitle | markdownify }}</h3>
-                <p class="quote">"{{ $quote | markdownify }}"</p>
+                <h3>{{ .quoteTitle }}</h3>
+                <p class="quote">"{{ $quote }}"</p>
                 <p class="author">{{ $author }}</p>
             </div>
         {{end}}
