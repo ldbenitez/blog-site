@@ -12,3 +12,13 @@
 .author {
     text-align: right;
 }
+
+
+.profile {
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+.profile::-webkit-scrollbar {
+    display: none;
+}
