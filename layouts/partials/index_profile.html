@@ -2,26 +2,30 @@
     {{- with .Site.Params.profileMode }}
     <div class="profile_inner">
         {{- if .imageUrl -}}
-        <img src="{{ .imageUrl }}" alt="{{ .imageTitle | default "profile image" }}"
+        <div class="bounce-in-top">
+            <img src="{{ .imageUrl }}" alt="{{ .imageTitle | default "profile image" }}"
             height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+        </div>
         {{- end }}
-        <h1>{{ .title | default $.Site.Title | markdownify }}</h1>
-        <span>{{ .subtitle | markdownify }}</span>
-
-        {{$authHeader := getenv "BASIC_AUTH_HEADER"}}
-        {{$quoteJson := getJSON .quoteUrl (dict "Authorization" $authHeader) }}
-        {{$quote := $quoteJson.quote}}
-        {{$author := $quoteJson.author}}
-
-        {{if $quote}}
-            <div class="quote-container">
-                <h3>{{ .quoteTitle }}</h3>
-                <p class="quote">"{{ $quote }}"</p>
-                <p class="author">{{ $author }}</p>
-            </div>
-        {{end}}
-
-        {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
+        <div class="bounce-in-bottom">
+            <h1>{{ .title | default $.Site.Title | markdownify }}</h1>
+            <span>{{ .subtitle | markdownify }}</span>
+    
+            {{$authHeader := getenv "BASIC_AUTH_HEADER"}}
+            {{$quoteJson := getJSON .quoteUrl (dict "Authorization" $authHeader) }}
+            {{$quote := $quoteJson.quote}}
+            {{$author := $quoteJson.author}}
+    
+            {{if $quote}}
+                <div class="quote-container">
+                    <h3>{{ .quoteTitle }}</h3>
+                    <p class="quote">"{{ $quote }}"</p>
+                    <p class="author">{{ $author }}</p>
+                </div>
+            {{end}}
+    
+            {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
+        </div>
     </div>
     {{- end}}
 </div>
