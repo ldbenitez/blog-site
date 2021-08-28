@@ -9,7 +9,7 @@
         {{- end }}
         <div class="fade-in-top">
             <h1>{{ .title | default $.Site.Title | markdownify }}</h1>
-            <span>{{ .subtitle | markdownify }}</span>
+            <p class="subtitle">{{ .subtitle | markdownify }}</p>
     
             {{$authHeader := getenv "BASIC_AUTH_HEADER"}}
             {{$quoteJson := getJSON .quoteUrl (dict "Authorization" $authHeader) }}

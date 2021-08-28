@@ -1,22 +1,28 @@
 
 .quote-container {
     padding: 3rem 0;
+    font-size: 1rem;
 }
 
-.quote {
-    padding: 1rem 0 0 0;
-    font-style: italic; 
-    text-align: justify; 
-}
-
-.author {
+.quote-container .author {
     text-align: right;
 }
 
+.quote {
+    padding: 1rem 0;
+    font-style: italic; 
+    font-size: 1.2rem;
+    text-align: justify;
+}
 
 .profile {
     scrollbar-width: none;
     overflow-y: scroll;
+}
+
+.profile .subtitle{
+    font-size: 1.3rem;
+    text-align: center;
 }
 
 .profile::-webkit-scrollbar {
