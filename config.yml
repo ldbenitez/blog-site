@@ -27,7 +27,7 @@ languages:
     profileMode:
       enabled: true
       title: "Hi!"
-      subtitle: "I'm a Software Engineer from Paraguay 🇵🇾 who relish learning new ways to make everyone's life simplier. This space was created to share ideas, opinions and resources about Software and Technology"
+      subtitle: "I'm a Software Engineer from Paraguay 🇵🇾 who relish learning new ways to make everyone's life simpler. This space was created to share ideas, opinions and resources about Software and Technology"
       quoteTitle: "Today's Quote"
       quoteUrl: "https://quotes.lbenitez.dev/en"
       imageUrl: "/blackhole.jpg"
