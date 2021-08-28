@@ -26,8 +26,8 @@ languages:
     weight: 1
     profileMode:
       enabled: true
-      title: "Hey there!"
-      subtitle: "It works on my machine"
+      title: "Hi!"
+      subtitle: "I'm a Software Engineer from Paraguay 🇵🇾 who relish learning new ways to make everyone life simplier. This space was created to share ideas, opinions and resources about Software and Technology"
       quoteTitle: "Today's Quote"
       quoteUrl: "https://quotes.lbenitez.dev/en"
       imageUrl: "/blackhole.jpg"
@@ -44,6 +44,14 @@ languages:
           weight: 20
         - name: Search
           url: search/
+          weight: 30
+        - name: About
+          url: about/
+          weight: 40
+        - name: Resume
+          url: cv_en.pdf
+          weight: 50
+        
 
   es:
     languageName: "🇵🇾 ES"
@@ -52,7 +60,7 @@ languages:
     profileMode:
       enabled: true
       title: "Hola!"
-      subtitle: "Próximamente..."
+      subtitle: "Sitio en construcción"
       quoteTitle: "Frase del Día"
       quoteUrl: "https://quotes.lbenitez.dev/es"
       imageUrl: "/blackhole.jpg"
@@ -69,6 +77,13 @@ languages:
           weight: 20
         - name: Buscar
           url: search/
+          weight: 30
+        - name: Info
+          url: about/
+          weight: 40
+        - name: CV
+          url: cv_es.pdf
+          weight: 50
       
 taxonomies:
   tag: tags

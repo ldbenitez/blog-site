@@ -22,3 +22,19 @@
 .profile::-webkit-scrollbar {
     display: none;
 }
+
+.social-icons {
+    padding-bottom: 0;
+}
+
+.about {
+    text-align: justify;
+}
+
+.about p{
+    margin: 2rem 0 ;
+    text-indent: 2rem;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
