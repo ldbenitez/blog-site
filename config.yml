@@ -27,7 +27,7 @@ languages:
     profileMode:
       enabled: true
       title: "Hi!"
-      subtitle: "I'm a Software Engineer from Paraguay (🇵🇾) who relishes learning new ways to make everyone's life simpler. This space was created to share ideas, opinions and resources about Software and Technology"
+      subtitle: "I'm a Software Engineer from Paraguay (🇵🇾) who relishes learning new ways to make everyone's life simpler. I created this blog to share ideas, opinions and useful resources about Software and Technology"
       quoteTitle: "Today's Quote"
       quoteUrl: "https://quotes.lbenitez.dev/en"
       imageUrl: "/blackhole.jpg"
@@ -60,7 +60,7 @@ languages:
     profileMode:
       enabled: true
       title: "Hola!"
-      subtitle: "Sitio en construcción"
+      subtitle: "Soy un Ingeniero en Informática de Paraguay que disfruta aprender nuevas maneras de hacer la vida más simple. Este blog tiene como fin compartir ideas, opiniones y recursos útiles relacionados con el mundo del Software y la Tecnología."
       quoteTitle: "Frase del Día"
       quoteUrl: "https://quotes.lbenitez.dev/es"
       imageUrl: "/blackhole.jpg"
