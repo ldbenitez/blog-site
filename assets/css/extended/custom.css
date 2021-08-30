@@ -15,26 +15,18 @@
     text-align: justify;
 }
 
-.profile {
-    scrollbar-width: none;
-    overflow-y: scroll;
-}
-
 .profile .subtitle{
     font-size: 1.3rem;
     text-align: center;
 }
 
-.profile::-webkit-scrollbar {
-    display: none;
-}
 
 .social-icons {
     padding-bottom: 0;
 }
 
 .about {
-    text-align: justify;
+    text-align: center;
 }
 
 .about p{
