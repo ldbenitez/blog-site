@@ -105,6 +105,8 @@ params:
       url: "mailto:ldbenitez@protonmail.com"
     - name: github
       url: "https://github.com/ldbenitez"
+    - name: linkedin
+      url: "https://linkedin.com/in/ldbenitez"
     - name: twitter
       url: "https://twitter.com/ldbenitezpy"
     - name: telegram
