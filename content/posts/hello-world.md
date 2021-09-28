@@ -5,7 +5,6 @@ TocOpen = false
 author = "Leonardo Benítez"
 date = 2021-09-28T20:26:00Z
 description = "First post "
-draft = true
 tags = []
 title = "Hello World!"
 
