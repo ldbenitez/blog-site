@@ -39,3 +39,5 @@ fields:
 - name: TocOpen
   type: boolean
   label: TOC Open
+pages:
+- content/posts/hello-world.md
