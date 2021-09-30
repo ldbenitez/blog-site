@@ -9,7 +9,6 @@ tags = []
 title = "Hello World!"
 
 +++
-# **Hello World**
 
 This is the first post of my blog. I am excited to share more about my opinions and ideas about technologies, software architectures, tools and everything related. Stay tuned!
 
