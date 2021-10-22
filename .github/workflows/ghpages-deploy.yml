@@ -1,8 +1,8 @@
 name: deploy gh pages
 
 on:
-  schedule:
-    - cron: '15 4 * * *'
+  #schedule:
+    #- cron: '15 4 * * *'
   push:
     branches: [ main ]
 
