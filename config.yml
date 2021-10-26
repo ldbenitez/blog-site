@@ -27,7 +27,8 @@ languages:
     profileMode:
       enabled: true
       title: "Hi!"
-      subtitle: "I'm a Software Engineer from Paraguay (🇵🇾) who relishes learning new ways to make everyone's life simpler. I created this blog to share ideas, opinions and useful resources"
+      #subtitle: "I'm a Software Engineer from Paraguay (🇵🇾) who relishes learning new ways to make everyone's life simpler. I created this blog to share ideas, opinions and useful resources"
+      subtitle: "Refactoring..."
       quoteTitle: "Today's Quote"
       quoteUrl: "https://quotes.lbenitez.dev/en"
       imageUrl: "/astro.jpg"
@@ -48,9 +49,9 @@ languages:
         - name: About
           url: about/
           weight: 40
-        - name: Resume
-          url: cv_en.pdf
-          weight: 50
+        # - name: Resume
+        #   url: cv_en.pdf
+        #   weight: 50
         
 
   es:
@@ -60,7 +61,8 @@ languages:
     profileMode:
       enabled: true
       title: "Hola!"
-      subtitle: "Soy un Ingeniero en Informática de Paraguay (🇵🇾) que disfruta aprender nuevas maneras de hacer la vida más simple. Este blog tiene como fin compartir ideas, opiniones y recursos útiles"
+      #subtitle: "Soy un Ingeniero en Informática de Paraguay (🇵🇾) que disfruta aprender nuevas maneras de hacer la vida más simple. Este blog tiene como fin compartir ideas, opiniones y recursos útiles"
+      subtitle: "Refactoring..."
       quoteTitle: "Frase del Día"
       quoteUrl: "https://quotes.lbenitez.dev/es"
       imageUrl: "/astro.jpg"
@@ -81,9 +83,9 @@ languages:
         - name: Info
           url: about/
           weight: 40
-        - name: CV
-          url: cv_es.pdf
-          weight: 50
+        # - name: CV
+        #   url: cv_es.pdf
+        #   weight: 50
       
 taxonomies:
   tag: tags
