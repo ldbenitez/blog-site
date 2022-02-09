@@ -104,7 +104,7 @@ params:
 
   socialIcons:
     - name: email
-      url: "mailto:ldbenitez@protonmail.com"
+      url: "mailto:contact@lbenitez.dev"
     - name: github
       url: "https://github.com/ldbenitez"
     - name: linkedin
