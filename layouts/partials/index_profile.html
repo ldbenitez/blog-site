@@ -11,7 +11,7 @@
             <h1>{{ .title | default $.Site.Title | markdownify }}</h1>
             <p class="subtitle">{{ .subtitle | markdownify }}</p>
     
-            {{$authHeader := getenv "BASIC_AUTH_HEADER"}}
+            {{$authHeader := getenv "HUGO_BASIC_AUTH_INFO"}}
             {{$quoteJson := getJSON .quoteUrl (dict "Authorization" $authHeader) }}
             {{$quote := $quoteJson.quote}}
             {{$author := $quoteJson.author}}
